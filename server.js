@@ -12,7 +12,7 @@ app.get('/', function (req, res) {
      res.send('article one requested and serve here ');
  });
  app.get('/article-two',function(req,res){
-     res.send('fahadmonathirumada786@gmail.com ');
+     res.send('article two requested and serve here ');
  });
  
 app.get('/ui/style.css', function (req, res) {
